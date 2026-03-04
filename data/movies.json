@@ -1,0 +1,792 @@
+[
+  {
+    "id": 1,
+    "title": "Inception",
+    "director": "Christopher Nolan",
+    "cast": [
+      "Leonardo DiCaprio",
+      "Joseph Gordon-Levitt",
+      "Elliot Page",
+      "Tom Hardy"
+    ],
+    "genres": ["Sci-Fi", "Thriller", "Action"],
+    "year": 2010,
+    "duration": 148,
+    "rating": 8.8,
+    "language": "en",
+    "synopsis": "Un voleur qui dérobe des secrets corporatifs à travers l'utilisation de la technologie de partage de rêves se voit confier la tâche inverse : planter une idée dans l'esprit d'un PDG.",
+    "status": "released"
+  },
+  {
+    "id": 2,
+    "title": "The Dark Knight",
+    "director": "Christopher Nolan",
+    "cast": [
+      "Christian Bale",
+      "Heath Ledger",
+      "Aaron Eckhart",
+      "Michael Caine"
+    ],
+    "genres": ["Action", "Crime", "Drama"],
+    "year": 2008,
+    "duration": 152,
+    "rating": 9.0,
+    "language": "en",
+    "synopsis": "Batman doit affronter le Joker, un criminel psychopathe qui veut semer le chaos à Gotham City.",
+    "status": "released"
+  },
+  {
+    "id": 3,
+    "title": "Interstellar",
+    "director": "Christopher Nolan",
+    "cast": [
+      "Matthew McConaughey",
+      "Anne Hathaway",
+      "Jessica Chastain",
+      "Michael Caine"
+    ],
+    "genres": ["Sci-Fi", "Drama", "Adventure"],
+    "year": 2014,
+    "duration": 169,
+    "rating": 8.7,
+    "language": "en",
+    "synopsis": "Une équipe d'explorateurs voyage à travers un trou de ver dans l'espace dans une tentative de sauver l'humanité.",
+    "status": "released"
+  },
+  {
+    "id": 4,
+    "title": "Pulp Fiction",
+    "director": "Quentin Tarantino",
+    "cast": [
+      "John Travolta",
+      "Uma Thurman",
+      "Samuel L. Jackson",
+      "Bruce Willis"
+    ],
+    "genres": ["Crime", "Drama"],
+    "year": 1994,
+    "duration": 154,
+    "rating": 8.9,
+    "language": "en",
+    "synopsis": "Les vies de deux tueurs à gages, d'un boxeur, de la femme d'un gangster et de deux braqueurs s'entremêlent dans une série d'incidents violents et absurdes.",
+    "status": "released"
+  },
+  {
+    "id": 5,
+    "title": "Fight Club",
+    "director": "David Fincher",
+    "cast": ["Brad Pitt", "Edward Norton", "Helena Bonham Carter", "Meat Loaf"],
+    "genres": ["Drama", "Thriller"],
+    "year": 1999,
+    "duration": 139,
+    "rating": 8.8,
+    "language": "en",
+    "synopsis": "Un employé de bureau insomniaque et un fabriquant de savon forment un club de combat clandestin qui évolue en une organisation criminelle.",
+    "status": "released"
+  },
+  {
+    "id": 6,
+    "title": "Forrest Gump",
+    "director": "Robert Zemeckis",
+    "cast": ["Tom Hanks", "Robin Wright", "Gary Sinise", "Sally Field"],
+    "genres": ["Drama", "Romance"],
+    "year": 1994,
+    "duration": 142,
+    "rating": 8.8,
+    "language": "en",
+    "synopsis": "Les présidences de Kennedy et Johnson, le Vietnam, le Watergate et d'autres événements historiques se déroulent du point de vue d'un homme du Alabama avec un QI de 75.",
+    "status": "released"
+  },
+  {
+    "id": 7,
+    "title": "The Matrix",
+    "director": "Lana Wachowski, Lilly Wachowski",
+    "cast": [
+      "Keanu Reeves",
+      "Laurence Fishburne",
+      "Carrie-Anne Moss",
+      "Hugo Weaving"
+    ],
+    "genres": ["Sci-Fi", "Action"],
+    "year": 1999,
+    "duration": 136,
+    "rating": 8.7,
+    "language": "en",
+    "synopsis": "Un hacker découvre la réalité choquante : sa réalité quotidienne est une simulation créée par des machines intelligentes.",
+    "status": "released"
+  },
+  {
+    "id": 8,
+    "title": "Goodfellas",
+    "director": "Martin Scorsese",
+    "cast": ["Robert De Niro", "Ray Liotta", "Joe Pesci", "Lorraine Bracco"],
+    "genres": ["Crime", "Drama", "Biography"],
+    "year": 1990,
+    "duration": 146,
+    "rating": 8.7,
+    "language": "en",
+    "synopsis": "L'histoire de Henry Hill et de sa vie dans la mafia, couvrant sa relation avec ses épouses Karen et ses partenaires mafieux Jimmy Conway et Tommy DeVito.",
+    "status": "released"
+  },
+  {
+    "id": 9,
+    "title": "The Shawshank Redemption",
+    "director": "Frank Darabont",
+    "cast": ["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler"],
+    "genres": ["Drama"],
+    "year": 1994,
+    "duration": 142,
+    "rating": 9.3,
+    "language": "en",
+    "synopsis": "Deux hommes emprisonnés développent une amitié profonde sur plusieurs années, trouvant réconfort et rédemption finale à travers des actes de décence commune.",
+    "status": "released"
+  },
+  {
+    "id": 10,
+    "title": "Parasite",
+    "director": "Bong Joon Ho",
+    "cast": ["Song Kang-ho", "Lee Sun-kyun", "Cho Yeo-jeong", "Choi Woo-shik"],
+    "genres": ["Thriller", "Drama", "Comedy"],
+    "year": 2019,
+    "duration": 132,
+    "rating": 8.5,
+    "language": "ko",
+    "synopsis": "Une famille pauvre s'infiltre dans la vie d'une famille riche, mais leur parasitisme prend une tournure inattendue.",
+    "status": "released"
+  },
+  {
+    "id": 11,
+    "title": "Spirited Away",
+    "director": "Hayao Miyazaki",
+    "cast": ["Rumi Hiiragi", "Miyu Irino", "Mari Natsuki", "Takashi Naito"],
+    "genres": ["Animation", "Adventure", "Fantasy"],
+    "year": 2001,
+    "duration": 125,
+    "rating": 8.6,
+    "language": "ja",
+    "synopsis": "Une jeune fille de 10 ans erre dans un monde régi par des dieux, des sorcières et des esprits, où les humains se changent en bêtes.",
+    "status": "released"
+  },
+  {
+    "id": 12,
+    "title": "The Godfather",
+    "director": "Francis Ford Coppola",
+    "cast": ["Marlon Brando", "Al Pacino", "James Caan", "Diane Keaton"],
+    "genres": ["Crime", "Drama"],
+    "year": 1972,
+    "duration": 175,
+    "rating": 9.2,
+    "language": "en",
+    "synopsis": "Le patriarche vieillissant d'une dynastie du crime organisé transfère le contrôle de son empire clandestin à son fils réticent.",
+    "status": "released"
+  },
+  {
+    "id": 13,
+    "title": "Avengers: Endgame",
+    "director": "Anthony Russo, Joe Russo",
+    "cast": [
+      "Robert Downey Jr.",
+      "Chris Evans",
+      "Mark Ruffalo",
+      "Chris Hemsworth"
+    ],
+    "genres": ["Action", "Adventure", "Sci-Fi"],
+    "year": 2019,
+    "duration": 181,
+    "rating": 8.4,
+    "language": "en",
+    "synopsis": "Après les événements dévastateurs de Avengers: Infinity War, l'univers est en ruines. Les Avengers se réunissent pour défaire Thanos et restaurer l'ordre.",
+    "status": "released"
+  },
+  {
+    "id": 14,
+    "title": "La La Land",
+    "director": "Damien Chazelle",
+    "cast": ["Ryan Gosling", "Emma Stone", "Rosemarie DeWitt", "J.K. Simmons"],
+    "genres": ["Musical", "Drama", "Romance"],
+    "year": 2016,
+    "duration": 128,
+    "rating": 8.0,
+    "language": "en",
+    "synopsis": "Un musicien et une actrice en herbe tombent amoureux tout en poursuivant leurs rêves à Los Angeles.",
+    "status": "released"
+  },
+  {
+    "id": 15,
+    "title": "Django Unchained",
+    "director": "Quentin Tarantino",
+    "cast": [
+      "Jamie Foxx",
+      "Christoph Waltz",
+      "Leonardo DiCaprio",
+      "Kerry Washington"
+    ],
+    "genres": ["Western", "Drama"],
+    "year": 2012,
+    "duration": 165,
+    "rating": 8.5,
+    "language": "en",
+    "synopsis": "Avec l'aide d'un chasseur de primes allemand, un esclave affranchi part à la recherche de sa femme, retenue par un propriétaire terrien brutal.",
+    "status": "released"
+  },
+  {
+    "id": 16,
+    "title": "Blade Runner 2049",
+    "director": "Denis Villeneuve",
+    "cast": ["Ryan Gosling", "Harrison Ford", "Ana de Armas", "Sylvia Hoeks"],
+    "genres": ["Sci-Fi", "Drama", "Thriller"],
+    "year": 2017,
+    "duration": 164,
+    "rating": 8.0,
+    "language": "en",
+    "synopsis": "Un jeune blade runner découvre un secret enfoui depuis longtemps qui pourrait plonger la société restante dans le chaos.",
+    "status": "released"
+  },
+  {
+    "id": 17,
+    "title": "Mad Max: Fury Road",
+    "director": "George Miller",
+    "cast": [
+      "Tom Hardy",
+      "Charlize Theron",
+      "Nicholas Hoult",
+      "Hugh Keays-Byrne"
+    ],
+    "genres": ["Action", "Adventure", "Sci-Fi"],
+    "year": 2015,
+    "duration": 120,
+    "rating": 8.1,
+    "language": "en",
+    "synopsis": "Dans un futur post-apocalyptique, Max s'associe à Furiosa pour fuir un tyran avec un groupe de femmes prisonnières.",
+    "status": "released"
+  },
+  {
+    "id": 18,
+    "title": "The Grand Budapest Hotel",
+    "director": "Wes Anderson",
+    "cast": [
+      "Ralph Fiennes",
+      "F. Murray Abraham",
+      "Mathieu Amalric",
+      "Adrien Brody"
+    ],
+    "genres": ["Comedy", "Adventure", "Crime"],
+    "year": 2014,
+    "duration": 99,
+    "rating": 8.1,
+    "language": "en",
+    "synopsis": "Un concierge légendaire d'un célèbre hôtel européen entre dans l'amitié d'un jeune employé qui devient son protégé de confiance.",
+    "status": "released"
+  },
+  {
+    "id": 19,
+    "title": "Whiplash",
+    "director": "Damien Chazelle",
+    "cast": ["Miles Teller", "J.K. Simmons", "Paul Reiser", "Melissa Benoist"],
+    "genres": ["Drama", "Music"],
+    "year": 2014,
+    "duration": 106,
+    "rating": 8.5,
+    "language": "en",
+    "synopsis": "Un jeune batteur de jazz commence à étudier sous la tutelle d'un instructeur impitoyable déterminé à pousser ses élèves au-delà de leurs limites.",
+    "status": "released"
+  },
+  {
+    "id": 20,
+    "title": "Get Out",
+    "director": "Jordan Peele",
+    "cast": [
+      "Daniel Kaluuya",
+      "Allison Williams",
+      "Bradley Whitford",
+      "Catherine Keener"
+    ],
+    "genres": ["Horror", "Mystery", "Thriller"],
+    "year": 2017,
+    "duration": 104,
+    "rating": 7.7,
+    "language": "en",
+    "synopsis": "Un jeune homme afro-américain visite les parents de sa petite amie blanche pour le week-end, où son inquiétude croissante sur leur comportement atteint un point de rupture.",
+    "status": "released"
+  },
+  {
+    "id": 21,
+    "title": "Everything Everywhere All at Once",
+    "director": "Daniel Kwan, Daniel Scheinert",
+    "cast": ["Michelle Yeoh", "Stephanie Hsu", "Ke Huy Quan", "James Hong"],
+    "genres": ["Sci-Fi", "Action", "Adventure"],
+    "year": 2022,
+    "duration": 139,
+    "rating": 7.8,
+    "language": "en",
+    "synopsis": "Une propriétaire d'un pressing découvre qu'elle seule peut sauver l'existence en explorant d'autres univers et en se connectant avec les versions d'elle-même qui pourraient exister.",
+    "status": "released"
+  },
+  {
+    "id": 22,
+    "title": "Dune: Part One",
+    "director": "Denis Villeneuve",
+    "cast": ["Timothée Chalamet", "Rebecca Ferguson", "Zendaya", "Oscar Isaac"],
+    "genres": ["Sci-Fi", "Adventure", "Drama"],
+    "year": 2021,
+    "duration": 155,
+    "rating": 8.0,
+    "language": "en",
+    "synopsis": "Le fils d'une famille noble est chargé de protéger la ressource la plus précieuse et la plus vitale de la galaxie sur la planète désertique la plus inhospitalière.",
+    "status": "released"
+  },
+  {
+    "id": 23,
+    "title": "Dune: Part Two",
+    "director": "Denis Villeneuve",
+    "cast": ["Timothée Chalamet", "Zendaya", "Rebecca Ferguson", "Josh Brolin"],
+    "genres": ["Sci-Fi", "Action", "Adventure"],
+    "year": 2024,
+    "duration": 166,
+    "rating": 8.5,
+    "language": "en",
+    "synopsis": "Paul Atreides s'unit à Chani et aux Fremen pour mener une guerre de revanche contre les conspirateurs qui ont détruit sa famille.",
+    "status": "released"
+  },
+  {
+    "id": 24,
+    "title": "Oppenheimer",
+    "director": "Christopher Nolan",
+    "cast": [
+      "Cillian Murphy",
+      "Emily Blunt",
+      "Matt Damon",
+      "Robert Downey Jr."
+    ],
+    "genres": ["Biography", "Drama", "History"],
+    "year": 2023,
+    "duration": 180,
+    "rating": 8.4,
+    "language": "en",
+    "synopsis": "L'histoire de l'Américain J. Robert Oppenheimer et son rôle dans le développement de la bombe atomique.",
+    "status": "released"
+  },
+  {
+    "id": 25,
+    "title": "Poor Things",
+    "director": "Yorgos Lanthimos",
+    "cast": ["Emma Stone", "Willem Dafoe", "Mark Ruffalo", "Ramy Youssef"],
+    "genres": ["Comedy", "Drama", "Romance"],
+    "year": 2023,
+    "duration": 141,
+    "rating": 7.8,
+    "language": "en",
+    "synopsis": "La jeune Bella est ramenée à la vie par le brillant et peu orthodoxe scientifique Dr. Godwin Baxter sous la protection de son père créateur.",
+    "status": "released"
+  },
+  {
+    "id": 26,
+    "title": "Killers of the Flower Moon",
+    "director": "Martin Scorsese",
+    "cast": [
+      "Leonardo DiCaprio",
+      "Robert De Niro",
+      "Lily Gladstone",
+      "Jesse Plemons"
+    ],
+    "genres": ["Crime", "Drama", "History"],
+    "year": 2023,
+    "duration": 206,
+    "rating": 7.6,
+    "language": "en",
+    "synopsis": "Les meurtres réels des membres de la nation Osage en Oklahoma dans les années 1920 après que le pétrole ait été découvert sur leurs terres.",
+    "status": "released"
+  },
+  {
+    "id": 27,
+    "title": "Barbie",
+    "director": "Greta Gerwig",
+    "cast": ["Margot Robbie", "Ryan Gosling", "Issa Rae", "Kate McKinnon"],
+    "genres": ["Comedy", "Adventure", "Fantasy"],
+    "year": 2023,
+    "duration": 114,
+    "rating": 6.9,
+    "language": "en",
+    "synopsis": "Barbie vit une vie parfaite à Barbieland, jusqu'à ce qu'elle commence à questionner son existence et se lance dans une aventure dans le monde réel.",
+    "status": "released"
+  },
+  {
+    "id": 28,
+    "title": "Spider-Man: Across the Spider-Verse",
+    "director": "Joaquim Dos Santos, Kemp Powers, Justin K. Thompson",
+    "cast": [
+      "Shameik Moore",
+      "Hailee Steinfeld",
+      "Brian Tyree Henry",
+      "Luna Lauren Velez"
+    ],
+    "genres": ["Animation", "Action", "Adventure"],
+    "year": 2023,
+    "duration": 140,
+    "rating": 8.6,
+    "language": "en",
+    "synopsis": "Miles Morales catapulte à travers le multivers où il rencontre une équipe de Spider-People chargée de protéger son existence.",
+    "status": "released"
+  },
+  {
+    "id": 29,
+    "title": "The Batman",
+    "director": "Matt Reeves",
+    "cast": [
+      "Robert Pattinson",
+      "Zoë Kravitz",
+      "Jeffrey Wright",
+      "Colin Farrell"
+    ],
+    "genres": ["Action", "Crime", "Drama"],
+    "year": 2022,
+    "duration": 176,
+    "rating": 7.8,
+    "language": "en",
+    "synopsis": "Lorsqu'un tueur s'en prend à l'élite de Gotham avec une série de machinations sadiques, une piste d'indices cryptiques envoie Batman sur une enquête dans le monde souterrain.",
+    "status": "released"
+  },
+  {
+    "id": 30,
+    "title": "No Time to Die",
+    "director": "Cary Joji Fukunaga",
+    "cast": ["Daniel Craig", "Ana de Armas", "Rami Malek", "Léa Seydoux"],
+    "genres": ["Action", "Adventure", "Thriller"],
+    "year": 2021,
+    "duration": 163,
+    "rating": 7.3,
+    "language": "en",
+    "synopsis": "James Bond a quitté le service actif et profite d'une vie tranquille en Jamaïque, jusqu'à ce qu'un vieil ami de la CIA vienne lui demander de l'aide.",
+    "status": "released"
+  },
+  {
+    "id": 31,
+    "title": "Once Upon a Time in Hollywood",
+    "director": "Quentin Tarantino",
+    "cast": ["Leonardo DiCaprio", "Brad Pitt", "Margot Robbie", "Emile Hirsch"],
+    "genres": ["Comedy", "Drama"],
+    "year": 2019,
+    "duration": 161,
+    "rating": 7.6,
+    "language": "en",
+    "synopsis": "Un acteur de télévision en déclin et sa doublure s'efforcent d'atteindre la gloire dans l'industrie cinématographique de Hollywood en 1969.",
+    "status": "released"
+  },
+  {
+    "id": 32,
+    "title": "1917",
+    "director": "Sam Mendes",
+    "cast": [
+      "George MacKay",
+      "Dean-Charles Chapman",
+      "Mark Strong",
+      "Andrew Scott"
+    ],
+    "genres": ["Drama", "War", "Action"],
+    "year": 2019,
+    "duration": 119,
+    "rating": 8.2,
+    "language": "en",
+    "synopsis": "Deux jeunes soldats britanniques doivent traverser le territoire ennemi et livrer un message qui empêchera un assaut mortel.",
+    "status": "released"
+  },
+  {
+    "id": 33,
+    "title": "Joker",
+    "director": "Todd Phillips",
+    "cast": [
+      "Joaquin Phoenix",
+      "Robert De Niro",
+      "Zazie Beetz",
+      "Frances Conroy"
+    ],
+    "genres": ["Crime", "Drama", "Thriller"],
+    "year": 2019,
+    "duration": 122,
+    "rating": 8.4,
+    "language": "en",
+    "synopsis": "En 1981, un clown désargenté et isolé sombre dans la folie et le crime à Gotham City, devenant le criminel infâme Joker.",
+    "status": "released"
+  },
+  {
+    "id": 34,
+    "title": "Interstellar Voyage",
+    "director": "Denis Villeneuve",
+    "cast": ["Oscar Isaac", "Timothée Chalamet", "Zendaya", "Rebecca Ferguson"],
+    "genres": ["Sci-Fi", "Adventure"],
+    "year": 2026,
+    "duration": 150,
+    "rating": 0,
+    "language": "en",
+    "synopsis": "Une expédition interstellaire vers une planète potentiellement habitable située à des années-lumière de la Terre.",
+    "status": "upcoming"
+  },
+  {
+    "id": 35,
+    "title": "The Lost City of Z",
+    "director": "James Gray",
+    "cast": [
+      "Charlie Hunnam",
+      "Robert Pattinson",
+      "Sienna Miller",
+      "Tom Holland"
+    ],
+    "genres": ["Adventure", "Biography", "Drama"],
+    "year": 2016,
+    "duration": 141,
+    "rating": 6.6,
+    "language": "en",
+    "synopsis": "L'histoire vraie de l'explorateur britannique Percy Fawcett qui part à la recherche d'une cité mystérieuse dans l'Amazonie.",
+    "status": "released"
+  },
+  {
+    "id": 36,
+    "title": "Arrival",
+    "director": "Denis Villeneuve",
+    "cast": [
+      "Amy Adams",
+      "Jeremy Renner",
+      "Forest Whitaker",
+      "Michael Stuhlbarg"
+    ],
+    "genres": ["Sci-Fi", "Drama", "Mystery"],
+    "year": 2016,
+    "duration": 116,
+    "rating": 7.9,
+    "language": "en",
+    "synopsis": "Lorsque douze mystérieux vaisseaux spatiaux apparaissent autour du monde, une linguiste est chargée d'interpréter le langage des extraterrestres.",
+    "status": "released"
+  },
+  {
+    "id": 37,
+    "title": "Moonlight",
+    "director": "Barry Jenkins",
+    "cast": [
+      "Mahershala Ali",
+      "Naomie Harris",
+      "Trevante Rhodes",
+      "Alex R. Hibbert"
+    ],
+    "genres": ["Drama"],
+    "year": 2016,
+    "duration": 111,
+    "rating": 7.4,
+    "language": "en",
+    "synopsis": "Un jeune homme afro-américain grapple avec son identité et sa sexualité alors qu'il vit une enfance, une adolescence et une vie adulte tumultueuses à Miami.",
+    "status": "released"
+  },
+  {
+    "id": 38,
+    "title": "The Revenant",
+    "director": "Alejandro G. Iñárritu",
+    "cast": [
+      "Leonardo DiCaprio",
+      "Tom Hardy",
+      "Will Poulter",
+      "Domhnall Gleeson"
+    ],
+    "genres": ["Action", "Adventure", "Drama"],
+    "year": 2015,
+    "duration": 156,
+    "rating": 8.0,
+    "language": "en",
+    "synopsis": "Un explorateur traqué par un ours et abandonné par son équipe de chasseurs doit survivre dans l'hiver brutal et se venger.",
+    "status": "released"
+  },
+  {
+    "id": 39,
+    "title": "Birdman",
+    "director": "Alejandro G. Iñárritu",
+    "cast": [
+      "Michael Keaton",
+      "Zach Galifianakis",
+      "Edward Norton",
+      "Andrea Riseborough"
+    ],
+    "genres": ["Comedy", "Drama"],
+    "year": 2014,
+    "duration": 119,
+    "rating": 7.7,
+    "language": "en",
+    "synopsis": "Un acteur à l'agonie de sa carrière tente de redonner vie à son image en montant une pièce de théâtre à Broadway.",
+    "status": "released"
+  },
+  {
+    "id": 40,
+    "title": "12 Years a Slave",
+    "director": "Steve McQueen",
+    "cast": [
+      "Chiwetel Ejiofor",
+      "Michael Kenneth Williams",
+      "Michael Fassbender",
+      "Lupita Nyong'o"
+    ],
+    "genres": ["Biography", "Drama", "History"],
+    "year": 2013,
+    "duration": 134,
+    "rating": 8.1,
+    "language": "en",
+    "synopsis": "L'histoire vraie de Solomon Northup, un homme noir libre de New York qui est enlevé et vendu comme esclave.",
+    "status": "released"
+  },
+  {
+    "id": 41,
+    "title": "Gravity",
+    "director": "Alfonso Cuarón",
+    "cast": [
+      "Sandra Bullock",
+      "George Clooney",
+      "Ed Harris",
+      "Orto Ignatiussen"
+    ],
+    "genres": ["Sci-Fi", "Thriller", "Drama"],
+    "year": 2013,
+    "duration": 91,
+    "rating": 7.7,
+    "language": "en",
+    "synopsis": "Deux astronautes se retrouvent piégés dans l'espace après que leur navette soit détruite, et doivent trouver un moyen de rentrer sur Terre.",
+    "status": "released"
+  },
+  {
+    "id": 42,
+    "title": "Inglourious Basterds",
+    "director": "Quentin Tarantino",
+    "cast": ["Brad Pitt", "Diane Kruger", "Eli Roth", "Mélanie Laurent"],
+    "genres": ["Adventure", "Drama", "War"],
+    "year": 2009,
+    "duration": 153,
+    "rating": 8.4,
+    "language": "en",
+    "synopsis": "En France occupée par les nazis pendant la Seconde Guerre mondiale, un plan d'assassinat contre les dirigeants nazis par un groupe de soldats juifs américains coïncide avec les plans de vengeance d'une propriétaire de cinéma.",
+    "status": "released"
+  },
+  {
+    "id": 43,
+    "title": "The Prestige",
+    "director": "Christopher Nolan",
+    "cast": [
+      "Hugh Jackman",
+      "Christian Bale",
+      "Michael Caine",
+      "Scarlett Johansson"
+    ],
+    "genres": ["Drama", "Mystery", "Sci-Fi"],
+    "year": 2006,
+    "duration": 130,
+    "rating": 8.5,
+    "language": "en",
+    "synopsis": "Après une tragédie, deux magiciens rivaux au XIXe siècle s'engagent dans une bataille pour créer l'illusion ultime tout en sacrifiant tout ce qu'ils ont.",
+    "status": "released"
+  },
+  {
+    "id": 44,
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "director": "Michel Gondry",
+    "cast": ["Jim Carrey", "Kate Winslet", "Tom Wilkinson", "Kirsten Dunst"],
+    "genres": ["Drama", "Romance", "Sci-Fi"],
+    "year": 2004,
+    "duration": 108,
+    "rating": 8.3,
+    "language": "en",
+    "synopsis": "Lorsque leur relation se termine, un couple subit une procédure médicale pour effacer mutuellement leurs souvenirs.",
+    "status": "released"
+  },
+  {
+    "id": 45,
+    "title": "Oldboy",
+    "director": "Park Chan-wook",
+    "cast": ["Choi Min-sik", "Yoo Ji-tae", "Kang Hye-jeong", "Ji Dae-han"],
+    "genres": ["Action", "Drama", "Mystery"],
+    "year": 2003,
+    "duration": 120,
+    "rating": 8.4,
+    "language": "ko",
+    "synopsis": "Après avoir été enlevé et emprisonné pendant quinze ans, Oh Dae-Su est libéré et a cinq jours pour retrouver son ravisseur.",
+    "status": "released"
+  },
+  {
+    "id": 46,
+    "title": "Memento",
+    "director": "Christopher Nolan",
+    "cast": [
+      "Guy Pearce",
+      "Carrie-Anne Moss",
+      "Joe Pantoliano",
+      "Mark Boone Junior"
+    ],
+    "genres": ["Mystery", "Thriller"],
+    "year": 2000,
+    "duration": 113,
+    "rating": 8.4,
+    "language": "en",
+    "synopsis": "Un homme souffrant d'amnésie à court terme utilise des notes et des tatouages pour traquer le meurtrier de sa femme.",
+    "status": "released"
+  },
+  {
+    "id": 47,
+    "title": "The Silence of the Lambs",
+    "director": "Jonathan Demme",
+    "cast": [
+      "Jodie Foster",
+      "Anthony Hopkins",
+      "Lawrence A. Bonney",
+      "Scott Glenn"
+    ],
+    "genres": ["Crime", "Drama", "Thriller"],
+    "year": 1991,
+    "duration": 118,
+    "rating": 8.6,
+    "language": "en",
+    "synopsis": "Une jeune stagiaire du FBI doit recevoir l'aide d'un tueur en série cannibal incarcéré pour attraper un autre tueur en série qui écorchait ses victimes.",
+    "status": "released"
+  },
+  {
+    "id": 48,
+    "title": "Back to the Future",
+    "director": "Robert Zemeckis",
+    "cast": [
+      "Michael J. Fox",
+      "Christopher Lloyd",
+      "Lea Thompson",
+      "Crispin Glover"
+    ],
+    "genres": ["Adventure", "Comedy", "Sci-Fi"],
+    "year": 1985,
+    "duration": 116,
+    "rating": 8.5,
+    "language": "en",
+    "synopsis": "Marty McFly, un adolescent des années 80, est accidentellement envoyé dans le passé où il doit faire en sorte que ses parents se rencontrent et tombent amoureux.",
+    "status": "released"
+  },
+  {
+    "id": 49,
+    "title": "The Shining",
+    "director": "Stanley Kubrick",
+    "cast": [
+      "Jack Nicholson",
+      "Shelley Duvall",
+      "Danny Lloyd",
+      "Scatman Crothers"
+    ],
+    "genres": ["Drama", "Horror"],
+    "year": 1980,
+    "duration": 146,
+    "rating": 8.4,
+    "language": "en",
+    "synopsis": "Une famille s'installe comme gardiens d'hiver dans un hôtel isolé où une force surnaturelle influence le père dans la violence.",
+    "status": "released"
+  },
+  {
+    "id": 50,
+    "title": "Star Wars: Episode IV - A New Hope",
+    "director": "George Lucas",
+    "cast": ["Mark Hamill", "Harrison Ford", "Carrie Fisher", "Alec Guinness"],
+    "genres": ["Action", "Adventure", "Fantasy"],
+    "year": 1977,
+    "duration": 121,
+    "rating": 8.6,
+    "language": "en",
+    "synopsis": "Luke Skywalker rejoint les forces avec un chevalier Jedi, un pilote arrogant, un wookiee et deux droïdes pour sauver la galaxie de l'Empire.",
+    "status": "released"
+  }
+]
