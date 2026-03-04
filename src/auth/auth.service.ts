@@ -36,13 +36,14 @@ export class AuthService {
     return { apiKey: newUser.apiKey };
   }
 
-  getMe(apiKey: string): Omit<User, 'apiKey'> & { apiKey: string } {
+  getMe(apiKey: string): Omit<User, 'password'> {
     const users = this.storage.read<User[]>('users.json');
     const user = users.find((u) => u.apiKey === apiKey);
     if (!user) {
       throw new NotFoundException('User not found');
     }
-    return user;
+    const { password: _pwd, ...safeUser } = user;
+    return safeUser;
   }
 
   regenerateKey(apiKey: string): { apiKey: string } {

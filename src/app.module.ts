@@ -8,6 +8,7 @@ import { StorageModule } from './storage/storage.module';
 import { MoviesModule } from './movies/movies.module';
 import { AuthModule } from './auth/auth.module';
 import { ApiKeyGuard } from './common/guards/api-key.guard';
+import { AdminGuard } from './common/guards/admin.guard';
 
 @Module({
   imports: [
@@ -29,6 +30,7 @@ import { ApiKeyGuard } from './common/guards/api-key.guard';
     AppService,
     { provide: APP_GUARD, useClass: ThrottlerGuard }, // exécuté en 1er
     { provide: APP_GUARD, useClass: ApiKeyGuard }, // exécuté en 2nd
+    { provide: APP_GUARD, useClass: AdminGuard }, // exécuté en 3ème
   ],
 })
 export class AppModule {}

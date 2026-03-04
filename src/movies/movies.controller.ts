@@ -2,11 +2,14 @@ import {
   BadRequestException,
   Body,
   Controller,
+  Delete,
   Get,
   HttpCode,
   Param,
   ParseIntPipe,
+  Patch,
   Post,
+  Put,
   Query,
 } from '@nestjs/common';
 import {
@@ -24,6 +27,7 @@ import { CreateMovieDto } from './dto/create-movie.dto';
 import { QueryMovieDto } from './dto/query-movie.dto';
 import { AdminOnly } from 'src/common/decorator/admin.decorator';
 import { Public } from 'src/common/decorator/public.decorator';
+import { UpdateMovieDto } from './dto/update-movie.dto';
 
 @ApiTags('Films')
 @ApiSecurity('api-key')
@@ -94,5 +98,43 @@ export class MoviesController {
   @HttpCode(201)
   create(@Body() body: CreateMovieDto) {
     return this.moviesService.create(body);
+  }
+
+  @ApiOperation({
+    summary:
+      '[Admin] Remplacer un film — PUT = remplacement complet de la ressource',
+  })
+  @ApiParam({ name: 'id', type: Number })
+  @ApiResponse({ status: 200, description: 'Film remplacé' })
+  @ApiResponse({ status: 404, description: 'Film introuvable' })
+  @ApiResponse({ status: 409, description: 'Titre en conflit' })
+  @AdminOnly()
+  @Put(':id')
+  replace(@Param('id', ParseIntPipe) id: number, @Body() body: CreateMovieDto) {
+    return this.moviesService.replace(id, body);
+  }
+
+  @ApiOperation({
+    summary: '[Admin] Modifier partiellement un film — PATCH = update partiel',
+  })
+  @ApiParam({ name: 'id', type: Number })
+  @ApiResponse({ status: 200, description: 'Film mis à jour' })
+  @ApiResponse({ status: 404, description: 'Film introuvable' })
+  @AdminOnly()
+  @Patch(':id')
+  update(@Param('id', ParseIntPipe) id: number, @Body() body: UpdateMovieDto) {
+    return this.moviesService.update(id, body);
+  }
+
+  @ApiOperation({ summary: '[Admin] Supprimer un film' })
+  @ApiParam({ name: 'id', type: Number })
+  @ApiResponse({ status: 204, description: 'Film supprimé' })
+  @ApiResponse({ status: 404, description: 'Film introuvable' })
+  @ApiResponse({ status: 409, description: 'Film upcoming non supprimable' })
+  @AdminOnly()
+  @Delete(':id')
+  @HttpCode(204)
+  remove(@Param('id', ParseIntPipe) id: number) {
+    this.moviesService.remove(id);
   }
 }
