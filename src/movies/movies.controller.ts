@@ -20,7 +20,6 @@ import {
   ApiSecurity,
   ApiParam,
 } from '@nestjs/swagger';
-import type { Response } from 'express';
 
 import { MoviesService } from './movies.service';
 import { CreateMovieDto } from './dto/create-movie.dto';
@@ -38,6 +37,10 @@ export class MoviesController {
   @Public()
   @ApiOperation({ summary: 'Lister tous les films' })
   @ApiResponse({ status: 200, description: 'Liste des films' })
+  @ApiResponse({
+    status: 401,
+    description: 'Header X-API-Key manquant ou invalide',
+  })
   @ApiQuery({ name: 'page', required: false, type: Number, example: 1 })
   @ApiQuery({ name: 'limit', required: false, type: Number, example: 10 })
   @ApiQuery({ name: 'genre', required: false, type: String, example: 'Action' })
@@ -134,7 +137,7 @@ export class MoviesController {
   @AdminOnly()
   @Delete(':id')
   @HttpCode(204)
-  remove(@Param('id', ParseIntPipe) id: number) {
+  remove(@Param('id', ParseIntPipe) id: number): void {
     this.moviesService.remove(id);
   }
 }
